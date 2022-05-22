@@ -1,0 +1,7 @@
+<div class="scene-loader">
+  <video *ngIf="isGundam" src="../../../assets/gundam.mp4" type="video/mp4" controls autoplay></video>
+  <video *ngIf="isZaku" src="../../../assets/zaku.mp4" type="video/mp4" controls autoplay></video>
+  <video *ngIf="isUnicorn" src="../../../assets/unicorn.mp4" type="video/mp4" controls autoplay></video>
+  <h1 class="default-title" *ngIf="showTitle">Select a Character</h1>
+  <app-image-card (characterEvent)="receiveCharacter($event)"></app-image-card>
+</div>

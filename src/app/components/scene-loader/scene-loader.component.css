@@ -1,0 +1,28 @@
+.scene-loader {
+  background: black;
+  height: 75vh;
+}
+
+.scene-loader video {
+  height: 100%;
+  width: -webkit-fill-available;
+}
+
+.default-title {
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  padding-top: 10%;
+}
+
+app-image-card {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1%;
+}
